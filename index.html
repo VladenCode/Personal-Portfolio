@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="I am creating business websites for targeted audiences and get them found on search engines using keywords"
+    />
+
+    <!-- flavicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/flavicon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Palanquin+Dark:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- script -->
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/navlink-animation.js" defer></script>
+    <!-- lottie bodymovin libary -->
+
+    <title>Vladimir Cvejanov - Web Developer</title>
+  </head>
+  <body>
+    <header>
+      <!-- NAVBAR -->
+      <nav class="nav navbar-fixed">
+        <div class="nav-center">
+          <div class="nav_logo">
+            <a href="./index.html"
+              ><img
+                class="nav_img"
+                id="nav_logo-change"
+                src="./assets/img/logo.png"
+                alt="website logo"
+            /></a>
+          </div>
+          <ul class="nav_links">
+            <li><a href="about.html" class="nav_link">about</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- HERO SECTION -->
+      <section class="hero-center section-center">
+        <article class="hero_info">
+          <h1>
+            websites made <br />
+            simple
+          </h1>
+          <p>
+            Your website is your new storefront;<br />
+            let me help you make it great!
+          </p>
+        </article>
+      </section>
+      <lottie-player
+        class="hero_lottie"
+        src="./assets/lottie/lottie-black-arrow-down.json"
+        background="transparent"
+        speed="1"
+        style="width: 70px; height: 70px"
+        loop
+        autoplay
+      ></lottie-player>
+    </header>
+
+    <!-- PROJECT SECTION -->
+    <section class="projects section-center">
+      <h2 class="projects-title text-transparent">Projects</h2>
+      <div class="projects-center">
+        <!-- project1 -->
+        <a href="#" class="project project-1">
+          <img src="./assets/img/logo.png" alt="" class="project_img" />
+          <div class="project_info">
+            <h4>comming soon</h4>
+          </div>
+        </a>
+        <!-- project2 -->
+        <a href="#" class="project project-2">
+          <img src="./assets/img/logo.png" alt="" class="project_img" />
+          <div class="project_info">
+            <h4>comming soon</h4>
+          </div>
+        </a>
+        <!-- project3 -->
+        <a href="#" class="project project-3">
+          <img src="./assets/img/logo.png" alt="" class="project_img" />
+          <div class="project_info">
+            <h4>comming soon</h4>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer section-center">
+      <h2 class="projects-title text-transparent">contacts</h2>
+      <div class="footer_container">
+        <div class="footer_lines">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="footer_info project">
+          <p>Want to digitalize your brand?</p>
+          <a href="#" class="footler_link-underscore">drop a line.</a>
+        </div>
+        <div class="footer_contact">
+          <a
+            href="https://github.com/VladenCode"
+            target="_blank"
+            class="nav_link"
+            >github</a
+          >
+          <a
+            href="https://twitter.com/VladTheCveja"
+            target="_blank"
+            class="nav_link"
+            >twitter</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- COPYRIGHT SECTION -->
+    <section class="copy-center">
+      <div class="copy">
+        <p class="copy_text">
+          &copy; <span id="date">2022</span> Vladimir Cvejanov all rights
+          reserved
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
