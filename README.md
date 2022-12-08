@@ -22,6 +22,6 @@ I learned to implement 'vw' and 'wh' as units for font-sizes. Gain knowledge usi
 
 ### Continued development
 
-- I plan to implement more onclick event listeners to my project section that will change the backgorund color based on the project main color. May use onclick in JavaScript for this manipulation of the DOM.
+- Implement more onclick event listeners to my project section that will change the backgorund color based on the project main color. May look to modify onload in JavaScript for this manipulation of the DOM.
 - Add worked on projects
 - Finish copywrite
